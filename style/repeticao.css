@@ -1,0 +1,30 @@
+body{
+    background: lightseagreen;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: lightseagreen;
+}
+
+section{
+    text-align: center;
+    color: white;
+    background: rgb(95, 43, 143);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#content{
+    padding: 15px;
+}
+
+#content > p >input{
+    font-size: 12pt;
+    border-radius: 15px;
+    padding: 10px;
+}

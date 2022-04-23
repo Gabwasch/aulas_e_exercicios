@@ -1,0 +1,35 @@
+body{
+    background: #3e3ea5;
+    color: white;
+}
+
+main > aside{
+    color: white;
+}
+
+aside > div{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    font-size: 18pt;
+    padding: 5px;
+    width: 40%;
+    border-radius: 25px;
+}
+
+#content{
+    display: block;
+    margin: 0 auto;
+    background: blueviolet;
+    border: 2px solid rgb(111, 22, 194);
+    border-radius: 15px;
+}
+

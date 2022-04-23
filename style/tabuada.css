@@ -1,0 +1,16 @@
+body{
+    background: blueviolet;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    background: lightgreen;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
