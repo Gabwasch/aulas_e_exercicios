@@ -5,17 +5,26 @@
     padding: 0;
 }
 
-a {
-    color: rgb(63, 235, 212);
+
+button{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    background: rgb(98, 31, 153);
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
     transition: 0.3s;
 }
-
-a:hover {
+button:hover{
     opacity: 0.7;
+    background: blueviolet;
 }
 
 .logo{
+    color: cyan;
+    text-decoration: none;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -44,15 +53,14 @@ main{
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
-    border: 2px solid rgb(61, 55, 66);
-    border-radius: 12px;
     padding: 8px;
 }
+/*
 .nav-list li:hover{
     background: rgb(61, 55, 66);
     transition: 0.3s ease-in;
     cursor: pointer;
-}
+}*/
 
 .mobile-menu{
     display: none;

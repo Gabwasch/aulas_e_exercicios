@@ -7,7 +7,27 @@ main{
     flex-direction: column;
 }
 
+input{
+    font-size: 15pt;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+}
+select{
+    font-size: 15pt;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    
+}
+
+p{
+    font-size: 15pt;
+    padding: 15px;
+}
+
 section{
+    text-align: center;
     background: lightgreen;
     margin: 0 auto;
     margin-top: 15px;

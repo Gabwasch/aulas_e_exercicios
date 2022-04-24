@@ -36,6 +36,7 @@ input{
     margin-top: 20px;    
 }
 aside{
+    text-align: center;
     margin: auto;
     margin-left: 10px;
     width: 600px;

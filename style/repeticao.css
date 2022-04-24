@@ -24,7 +24,9 @@ section{
 }
 
 #content > p >input{
+    margin: 5px;
     font-size: 12pt;
     border-radius: 15px;
     padding: 10px;
+    border: 2px solid rgb(95, 25, 68);
 }

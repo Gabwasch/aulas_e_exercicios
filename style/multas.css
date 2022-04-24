@@ -22,14 +22,22 @@ input{
     font-size: 18pt;
     padding: 5px;
     width: 40%;
-    border-radius: 25px;
+    border-radius: 15px;
+    border: 2px solid cyan;
+    margin: 15px;
 }
 
 #content{
-    display: block;
     margin: 0 auto;
     background: blueviolet;
     border: 2px solid rgb(111, 22, 194);
     border-radius: 15px;
+}
+
+#res{
+    background: rgb(247, 112, 112, 0.5);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
 }
 
