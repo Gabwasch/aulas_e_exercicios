@@ -9,10 +9,12 @@ main{
 }
 
 #content{
+    text-align: center;
+    margin: 15px;
     width: 500px;
     border: 2px solid rgb(67, 33, 99);
     border-radius: 15px;
-    background: rgb(39, 102, 101);
+    background: rgb(154, 37, 165);
 }
 
 div#area{
@@ -27,6 +29,9 @@ div#area{
 
 div#res{
     background: rgb(117, 51, 155);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
 }
 
 input{
@@ -37,12 +42,11 @@ input{
 }
 aside{
     text-align: center;
-    margin: auto;
-    margin-left: 10px;
+    margin: auto 15px;
     width: 600px;
     border: 2px solid rgb(67, 33, 99);
     border-radius: 15px;
-    background: rgb(39, 102, 101);
+    background: rgb(87, 15, 105);
 }
 
 aside > h1{

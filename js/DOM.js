@@ -3,10 +3,10 @@ var p1 = window.document.getElementsByTagName('p')[1]
 window.document.write('Esta escrito assim: ' + p1.innerText)
 */
 var d = window.document.getElementById('msg')
-d.innerText = 'estou aguardando...' 
+d.innerHTML = 'estou aguardando interação via JavaScript <strong>(mude background)</strong>' 
 
 var d = window.document.querySelector('div#msg')
-d.style.background = 'grey'
+d.style.background = 'purple'
 
 
 var a = window.document.getElementById('area')

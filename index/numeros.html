@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/multas.css">
-    <title>Multas</title>
+    <link rel="stylesheet" href="../style/numeros.css">
+    <title>Funções</title>
 </head>
 <body>
     <header>
         <nav>
-            <a class="logo" href="../index/DOM.html">Aulas e Exercícios</a>
+            <a class="logo" href="../index/DOM.html">Aulas e Exercicios</a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -25,22 +25,24 @@
                 <li><a href="../index/repetição.html"><button>Repetições</button></a></li>
                 <li><a href="../index/tabuada.html"><button>Tabuada</button></a></li>
                 <li><a href="../index/numeros.html"><button>Numeros</button></a></li>
-            </ul>
+        </ul>
         </nav>
-    </header> 
+    </header>
     <main>
-        <aside>
-            <h1>Sistema de multas</h1>
-            <div id="content">
-                <p>Velocidade do carro: </p>
-                <p><input type="number" id="txtvel"></p>
-                <p>km/h</p> 
-                <p><input type="button" value="Verificar" onclick="calcular()"></p>
-            </div>
-            <div id="res">Digite sua velucidade para ver o resultado</div>
-        </aside>
+        <div id="titulo">
+            <h1>Analisador de Números</h1>
+        </div>
+        <div id="content">
+            <p>Numero (entre 1 e 9999) <input type="number" name="num" id="txtn">
+            <input type="button" value="Adicionar" onclick="adicionar()"></p>
+            <p><select name="lista" id="seltab" size="6"></select></p>
+            <p><input type="button" value="Finalizar" onclick="finalizar()"></p>
+        </div>
+        <div id="res">
+            <p>finalize para ver os resultados</p>
+        </div>
     </main>
-    <script src="../js/multas.js"></script>
+    <script src="../js/numeros.js"></script>
     <script src="../js/mobile-navbar.js"></script>
 </body>
 </html>
